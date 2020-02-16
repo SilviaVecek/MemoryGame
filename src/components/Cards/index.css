@@ -5,6 +5,7 @@
   justify-items: center;
   grid-gap: 20px;
   grid-template-columns: auto auto auto auto;
+  height: 100vh;
 }
 
 .image {
@@ -24,7 +25,7 @@
 .unrevealed {
   transform: rotateY(0deg);
   cursor: pointer;
-  background-image: url('studentSuper.svg') !important;
+  background-image: url('../../studentSuper.svg') !important;
 }
 
 .revealed, .matched {

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import classnames from 'classnames';
-import '../../App.css';
+import './index.css';
+import CircularLoader from '../CircularLoader'
 import { getCards } from '../../api/images';
 import { handleClick, CARD_STATE, shuffleCards } from './utils';
 
@@ -23,6 +24,7 @@ const Cards = () => {
 
     return (
         <div className="container">
+            {cards.length === 0 && <CircularLoader />}
             {cards.map((item, idx) => <div 
                 onClick={() => handleClick(idx, item, cards, setCards)} 
                 className={classnames("image", item.state.toLowerCase())} 
