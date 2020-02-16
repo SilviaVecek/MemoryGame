@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Hi Tom!
+
+Please clone the repo https://github.com/SilviaVecek/MemoryGame.git and use yarn start to spin it up locally. Or go to https://memory-game-student-super.netlify.com/ using Firefox or Chrome
+
 ## Available Scripts
 
 In the project directory, you can run:

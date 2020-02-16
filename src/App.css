@@ -3,6 +3,7 @@
   background-image: linear-gradient(130deg,#a6c0fe -50%,#f68084 150%);
   display: grid;
   justify-items: center;
+  grid-gap: 20px;
   grid-template-columns: auto auto auto auto;
 }
 
